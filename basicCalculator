@@ -1,34 +1,16 @@
-using System;
-					
-public class Program
-{
-	public static void Main()
-	{
-		Console.Write("Enter a number");
-		double num1 = Convert.ToDouble(Console.ReadLine());
-		
-		Console.Write("Enter a operator: ");
-		string op = Console.ReadLine();
-		
-		Console.Write("Enter a number: ");
-		double num2 = Convert.ToDouble(Console.ReadLine());
-		
-		if(op == "+")
-		{
-			Console.WriteLine(num1 + num2);
-		} else if(op == "-")
-		{
-			Console.WriteLine(num1 - num2);
-		} else if(op == "*")
-		{
-			Console.WriteLine(num1 * num2);
-		} else if(op == "/")
-		{
-			Console.WriteLine(num1 / num2);
-		} else
-		{
-			Console.WriteLine("Please choose one of this operator(+, -, *, /)");
-		}
-	}
+num1 = float(input("Enter a number: "))
+op = input("Enter a operator: ")
+num2 = float(input("Enter a number: "))
 
-}
+if(op == "+"):
+    print(num1 + num2)
+elif(op == "-"):
+    print(num1 - num2)
+elif(op == "*"):
+    print(num1 * num2)
+elif(op == "/"):
+    print(num1 / num2)
+elif(op == "%"):
+    print(num1 % num2)
+else:
+    print("Choose one of this operator(+, -, *, /, %")
