@@ -1,2 +1,2 @@
 # basic-calculator
-basic calculator dengan menggunakan C#
+basic calculator dengan menggunakan python
